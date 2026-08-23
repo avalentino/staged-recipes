@@ -93,10 +93,25 @@ tests:
       imports:
         - eopf
       pip_check: true
+  - requirements:
+      run:
+        - pytest
+        - pytest-asyncio
+        - pytest-xdist
+        - hypothesis >=6
+        - kerchunk >=0
+        - scipy
+        - defusedxml
+    files:
+      source:
+        - pyproject.toml
+      recipe:
+        - tests/
     script:
       - if: unix
         then:
         - eopf --help
+        - pytest -c pyproject.toml -m "not need_files and not real_s3 and not gateway" -k "not test_transfomer_mapping_scaled and not test_failures"
 
 
 about:
