@@ -1,0 +1,297 @@
+{
+    "S03SLSRBT": {
+        "zarr_size": 526910597,
+        "nb_files": 2922,
+        "conversion_time": 70
+    },
+    "S03DORDOP": {
+        "zarr_size": 266292,
+        "nb_files": 59,
+        "conversion_time": 0.27065086364746094
+    },
+    "S03DORNAV": {
+        "zarr_size": 121276,
+        "nb_files": 31,
+        "conversion_time": 0.746739387512207
+    },
+    "S03GNSL0_": {
+        "zarr_size": 3547002,
+        "nb_files": 335,
+        "conversion_time": 1.2013731002807617
+    },
+    "S03MWRL0_": {
+        "zarr_size": 1694257,
+        "nb_files": 323,
+        "conversion_time": 0.9239828586578369
+    },
+    "S03MWRL1_": {
+        "zarr_size": 4957638,
+        "nb_files": 87,
+        "conversion_time": 0.46764039993286133
+    },
+    "S03OLCRAC": {
+        "zarr_size": 1195866,
+        "nb_files": 36,
+        "conversion_time": 0.244492769241333
+    },
+    "S03OLCSPC": {
+        "zarr_size": 4082226,
+        "nb_files": 41,
+        "conversion_time": 1.417433261871338
+    },
+    "S03ALTL2S": {
+        "zarr_size": 19488999,
+        "nb_files": 1084,
+        "conversion_time": 8
+    },
+    "S03OLCCR0": {
+        "zarr_size": 68245994,
+        "nb_files": 91,
+        "conversion_time": 1.229518175125122
+    },
+    "S03OLCL0_": {
+        "zarr_size": 399016946,
+        "nb_files": 123,
+        "conversion_time": 1.8159644603729248
+    },
+    "S03OLCEFR": {
+        "zarr_size": 1347664985,
+        "nb_files": 1530,
+        "conversion_time": 6.125583171844482
+    },
+    "S03SLSL0_": {
+        "zarr_size": 114087259,
+        "nb_files": 339,
+        "conversion_time": 4.626686334609985
+    },
+    "S03SLSFRP": {
+        "zarr_size": 98936181,
+        "nb_files": 431,
+        "conversion_time": 3.2909226417541504
+    },
+    "S03SRAL0C": {
+        "zarr_size": 2600000,
+        "nb_files": 31,
+        "conversion_time": 0.9936611652374268
+    },
+    "S03SRAL0_": {
+        "zarr_size": 479735965,
+        "nb_files": 387,
+        "conversion_time": 3.4006528854370117
+    },
+    "S03OLCCR1": {
+        "zarr_size": 1195531488,
+        "nb_files": 1211,
+        "conversion_time": 27
+    },
+    "S03NATL0_": {
+        "zarr_size": 960519,
+        "nb_files": 53,
+        "conversion_time": 0.2128279209136963
+    },
+    "S03HKM2L0": {
+        "zarr_size": 374295,
+        "nb_files": 123,
+        "conversion_time": 0.5602538585662842
+    },
+    "S03HKML0_": {
+        "zarr_size": 3167359,
+        "nb_files": 403,
+        "conversion_time": 1.302884578704834
+    },
+    "S03SYNVGT": {
+        "zarr_size": 2669218,
+        "nb_files": 78,
+        "conversion_time": 0.8017640113830566
+    },
+    "S03SYNVGK": {
+        "zarr_size": 3789679,
+        "nb_files": 94,
+        "conversion_time": 1.0277454853057861
+    },
+    "S03SYNV01": {
+        "zarr_size": 181726021,
+        "nb_files": 77,
+        "conversion_time": 1.4467875957489014
+    },
+    "S03SYNV10": {
+        "zarr_size": 271733087,
+        "nb_files": 75,
+        "conversion_time": 1.9657762050628662
+    },
+    "S03SYNSDR": {
+        "zarr_size": 1214987628,
+        "nb_files": 45991,
+        "conversion_time": 138.06607127189636
+    },
+    "S03SYNAOD": {
+        "zarr_size": 2489928,
+        "nb_files": 113,
+        "conversion_time": 0.5670700073242188
+    },
+    "S03ALTL0_": {
+        "zarr_size": 489000000,
+        "nb_files": 39,
+        "conversion_time": 0
+    },
+    "S03SRAL1A": {
+        "zarr_size": 803545418,
+        "nb_files": 655,
+        "conversion_time": 225.39555740356445
+    },
+    "S03SRAL1R": {
+        "zarr_size": 46576755,
+        "nb_files": 933,
+        "conversion_time": 6
+    },
+    "S03ALTL2L": {
+        "zarr_size": 3312013,
+        "nb_files": 914,
+        "conversion_time": 46.58982729911804
+    },
+    "S03ALTL2H": {
+        "zarr_size": 26258159,
+        "nb_files": 1124,
+        "conversion_time": 7
+    },
+    "S03OLCERR": {
+        "zarr_size": 100975083,
+        "nb_files": 218,
+        "conversion_time": 1.6970722675323486
+    },
+    "S03OLCLRR": {
+        "zarr_size": 43353687,
+        "nb_files": 123,
+        "conversion_time": 0.6940207481384277
+    },
+    "S03OLCLFR": {
+        "zarr_size": 37918579,
+        "nb_files": 191,
+        "conversion_time": 0.8793120384216309
+    },
+    "S03SLSLST": {
+        "zarr_size": 78201819,
+        "nb_files": 334,
+        "conversion_time": 1.8614368438720703
+    },
+    "S02MSIL1C": {
+        "zarr_size": 1062343000,
+        "nb_files": 1182,
+        "conversion_time": 39.589593172073364
+    },
+    "S02MSIL2A": {
+        "zarr_size": 1203856142,
+        "nb_files": 2607,
+        "conversion_time": 133.3415253162384
+    },
+    "S01SIWOCN": {
+        "zarr_size": 8190956,
+        "nb_files": 265,
+        "conversion_time": 18.89470624923706
+    },
+    "S01SEWOCN": {
+        "zarr_size": 11916330,
+        "nb_files": 288,
+        "conversion_time": 22.535890102386475
+    },
+    "S01SSMOCN": {
+        "zarr_size": 14240669,
+        "nb_files": 240,
+        "conversion_time": 7.013984203338623
+    },
+    "S01SSMRAW": {
+        "zarr_size": 0,
+        "nb_files": 0,
+        "conversion_time": 0
+    },
+    "S01SWVOCN": {
+        "zarr_size": 36992434,
+        "nb_files": 9352,
+        "conversion_time": 1371.202407360077
+    },
+    "S01SWVRAW": {
+        "zarr_size": 179394625,
+        "nb_files": 456,
+        "conversion_time": 13.452507734298706
+    },
+    "S01SIWGRH": {
+        "zarr_size": 680000000,
+        "nb_files": 805,
+        "conversion_time": 0
+    },
+    "S01SIWSLC": {
+        "zarr_size": 3977220599,
+        "nb_files": 6728,
+        "conversion_time": 2053.3025181293488
+    },
+    "S01SEWSLC": {
+        "zarr_size": 2701017922,
+        "nb_files": 24023,
+        "conversion_time": 0
+    },
+    "S01SSMSLC": {
+        "zarr_size": 2097470518,
+        "nb_files": 457,
+        "conversion_time": 95.39344000816345
+    },
+    "S01SWVSLC": {
+        "zarr_size": 1714424385,
+        "nb_files": 2467,
+        "conversion_time": 160.69885182380676
+    },
+    "S01SEWGRD": {
+        "zarr_size": 218544327,
+        "nb_files": 467,
+        "conversion_time": 12.08601999282837
+    },
+    "S01SSMGRD": {
+        "zarr_size": 75721079,
+        "nb_files": 167,
+        "conversion_time": 19.604305028915405
+    },
+    "S01SIWRAW": {
+        "zarr_size": 1576969323,
+        "nb_files": 832,
+        "conversion_time": 0
+    },
+    "S01SEWRAW": {
+        "zarr_size": 578031635,
+        "nb_files": 2710,
+        "conversion_time": 221.43500804901123
+    },
+    "S01SIWGRD": {
+        "zarr_size": 937168995,
+        "nb_files": 511,
+        "conversion_time": 51.89761400222778
+    },
+    "S01AISRAW": {
+        "zarr_size": 211340182,
+        "nb_files": 43,
+        "conversion_time": 4.7105138301849365
+    },
+    "S01SS4RAW": {
+        "zarr_size": 1403961667,
+        "nb_files": 847,
+        "conversion_time": 148.07902121543884
+    },
+    "S01SS1RAW": {
+        "zarr_size": 1366756611,
+        "nb_files": 434,
+        "conversion_time": 135.81826281547546
+    },
+    "S01HKMRAW": {
+        "zarr_size": 3717370,
+        "nb_files": 34,
+        "conversion_time": 1.2037253379821777
+    },
+    "S03MWRCAL": {
+        "zarr_size": 61531,
+        "nb_files": 38,
+        "conversion_time": 0.1754441261291504
+    },
+    "S03SRACAL": {
+        "zarr_size": 480162,
+        "nb_files": 325,
+        "conversion_time": 2.267194986343385
+    }
+}
