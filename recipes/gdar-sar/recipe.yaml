@@ -1,0 +1,69 @@
+context:
+  version: "1.3.0"
+
+package:
+  name: gdar-sar
+  version: ${{ version }}
+
+source:
+  url: https://files.pythonhosted.org/packages/source/g/gdar_sar/gdar_sar-${{ version }}.tar.gz
+  sha256: b963c355834b8dc1e20eed6a58f00f3a935422fa6ff19e465de47c4c2a45d485
+
+build:
+  noarch: python
+  script: python -m pip install . -vv
+  number: 0
+
+requirements:
+  host:
+    - python
+    - pip
+    - hatchling
+    - hatch-vcs
+  run:
+    - python >=${{ python_min }}
+    - gdar-base >=1.3.0
+    - gdar-orbit >=1.3.0
+    - rasterio >=1.0
+    - tifffile
+    - xmltodict
+  extras:
+    crs:
+    plotting:
+      - matplotlib
+      - gdar-base[extras=[plotting]]
+    interactive:
+      - ipython
+      - gdar-base[extras=[interactive]]
+
+tests:
+  - python:
+      imports:
+      - gdar.io
+      - gdar.sar
+      pip_check: true
+  - script:
+      - python -m pytest tests
+    requirements:
+      run:
+        - pytest
+    files:
+      source:
+        - tests/
+
+about:
+  homepage: https://pypi.org/project/gdar-sar
+  summary: 'GDAR-SAR -- Synthetic aperture radar geometry and functionality for GDAR'
+  description: |
+    Synthetic aperture radar geometry and functionality for the GDAR processing
+    framework. Part of the OpenGDAR family of packages.
+    See gdar-base for the foundation package and an introduction to the
+    DataRaster abstraction; requires gdar-orbit for orbit and attitude handling.
+  license: Apache-2.0
+  license_file: LICENSE
+  documentation: https://earth-observation-public.pages.norce.dev/gafa-doc
+
+extra:
+  recipe-maintainers:
+    - avalentino
+    - ylarsen
